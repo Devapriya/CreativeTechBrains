@@ -10,7 +10,7 @@ CORS(app)
 @app.route('/api/route', methods=['POST'])
 def functioncall():
         endpoint = "https://docintellictb.cognitiveservices.azure.com/"
-        key = "9vnegmX7mrAoqwOvqoYD8Ze8l33mpzZAMxVj0ynB0mY4Onyw4TeMJQQJ99AKACqBBLyXJ3w3AAALACOGgYlq"
+        key = ""
 
         # sample document
         formUrl = "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-REST-api-samples/master/curl/form-recognizer/DriverLicense.png"
