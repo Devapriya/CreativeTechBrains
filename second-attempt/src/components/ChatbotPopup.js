@@ -10,7 +10,7 @@ const ChatbotPopup = () => {
   const [loading, setLoading] = useState(false);
 
   const API_URL = 'https://genai-openai-creativetechbrains.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview'; // Replace with your chatbot API URL (e.g., OpenAI or your custom backend API)
-  const API_KEY = '974d6edf70f5445aac5d32854f8ff550'; // Replace with your API key if needed (for OpenAI or your custom backend)
+  const API_KEY = ''; // Replace with your API key if needed (for OpenAI or your custom backend)
 
   // Function to toggle chat visibility
   const toggleChatVisibility = () => {
@@ -55,7 +55,7 @@ const ChatbotPopup = () => {
             "endpoint": "https://alsearchctb2024.search.windows.net",
             "authentication": {
              "type": "api_key",
-             "key": "h5pSo39g0USlp2ywYR9yubPvTsznhx8jvrIh1KILIBAzSeADAidH"
+             "key": ""
             },
             "index_name": "ccountrystore",
             "query_type": "semantic",

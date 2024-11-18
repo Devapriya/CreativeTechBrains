@@ -12,10 +12,10 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 const endpoint = "https://genai-openai-creativetechbrains.openai.azure.com/";  
-const azureApiKey = "974d6edf70f5445aac5d32854f8ff550";  
+const azureApiKey = "";  
 const deploymentId = "gpt-4o";  
 const searchEndpoint = "https://alsearchctb2024.search.windows.net";  
-const searchKey = "h5pSo39g0USlp2ywYR9yubPvTsznhx8jvrIh1KILIBAzSeADAidH";  
+const searchKey = "";  
 const searchIndex = "countryreport";  
 
 // Middleware for handling CORS and file uploads
@@ -93,7 +93,7 @@ app.post('/upload', upload.single('file'), async (req, res) => {
 
   try {
     const endpoint = "https://docintellictb.cognitiveservices.azure.com/";
-    const apiKey = "9vnegmX7mrAoqwOvqoYD8Ze8l33mpzZAMxVj0ynB0mY4Onyw4TeMJQQJ99AKACqBBLyXJ3w3AAALACOGgYlq";
+    const apiKey = "";
     console.log("I am here!");
     console.log(endpoint);
     // Sending the file to Azure Form Recognizer
